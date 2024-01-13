@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import AboutButton from "./Components/Rean/AboutButton";
+import Myself from "./Components/Ariful/Myself";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,6 +27,10 @@ function App() {
         </button>
 
         <AboutButton/>
+        <div>
+        <Myself></Myself>
+        </div>
+        
       </section>
 
       <div>
