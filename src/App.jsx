@@ -32,6 +32,8 @@ function App() {
         </div>
         <div>
           this is noman main branch 
+          {/* this is the home btn */}
+          <button>click this</button>
         </div>
       </section>
 
