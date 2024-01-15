@@ -25,12 +25,12 @@ function App() {
         >
           RADIAT RIDOY
         </button>
+        <button className="btn btn-primary text-xl">New RIDOY Button</button>
 
-        <AboutButton/>
+        <AboutButton />
         <div>
-        <Myself></Myself>
+          <Myself></Myself>
         </div>
-        
       </section>
 
       <div>
