@@ -25,6 +25,7 @@ function App() {
         >
           RADIAT RIDOY
         </button>
+        {/* New button added for testting perpose */}
         <button className="btn btn-primary text-xl">New RIDOY Button</button>
 
         <AboutButton />
