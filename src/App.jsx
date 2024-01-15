@@ -25,13 +25,15 @@ function App() {
         >
           RADIAT RIDOY
         </button>
+        {/* New button added for testting perpose */}
+        <button className="btn btn-primary text-xl">New RIDOY Button</button>
 
-        <AboutButton/>
+        <AboutButton />
         <div>
-        <Myself></Myself>
+          <Myself></Myself>
         </div>
         <div>
-          this is noman main branch 
+          this is noman main branch
           {/* this is the home btn */}
           <button>click this</button>
           <button>click this and delete this feture branch</button>
@@ -76,4 +78,4 @@ function App() {
 }
 
 export default App;
-// noman-feat-home-btn 
+// noman-feat-home-btn
