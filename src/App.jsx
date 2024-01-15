@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import AboutButton from "./Components/Rean/AboutButton";
 import Myself from "./Components/Ariful/Myself";
+import Mustafiz from "./Components/Mustafiz";
 
 function App() {
 	const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
 			<h1 className="text-8xl">Hexa Scriptors</h1>
 			{/* Add Your Button Here */}
 			<section className="my-52 flex flex-col gap-5 justify-center items-center w-fit mx-auto">
+      <Mustafiz></Mustafiz>
 				<button
 					onClick={() =>
 						document.getElementById("my_modal_1").showModal()
@@ -79,7 +81,11 @@ function App() {
 						</div>
 					</div>
 				</dialog>
+        
 			</div>
+
+      <div>
+      </div>
 		</>
 	);
 }
